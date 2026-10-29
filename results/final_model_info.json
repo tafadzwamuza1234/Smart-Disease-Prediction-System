@@ -1,0 +1,5 @@
+{
+  "deployed_model_name": "Stacking Ensemble",
+  "best_overall_model_name": "SVM (linear kernel)",
+  "saved_path": "C:\\Users\\tafad\\Desktop\\smart-disease-prediction\\Smart_Disease_Prediction_System\\src\\..\\models\\ensemble_model.pkl"
+}

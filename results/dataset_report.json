@@ -1,0 +1,35 @@
+{
+  "shape": [
+    246945,
+    378
+  ],
+  "n_rows": 246945,
+  "n_columns": 378,
+  "target_column": "diseases",
+  "feature_columns_count": 377,
+  "dtypes": {
+    "int64": 377,
+    "str": 1
+  },
+  "missing_values_total": 0,
+  "duplicate_rows": 57305,
+  "n_unique_diseases": 713,
+  "class_count_min": 6,
+  "class_count_max": 1219,
+  "class_count_mean": 346.3464235624123,
+  "classes_with_fewer_than_10_examples": 35,
+  "feature_value_set": [
+    0,
+    1
+  ],
+  "symptom_prevalence_describe": {
+    "count": 377.0,
+    "mean": 3493.159151193634,
+    "std": 4881.0866319546185,
+    "min": 0.0,
+    "25%": 252.0,
+    "50%": 1797.0,
+    "75%": 4879.0,
+    "max": 32307.0
+  }
+}

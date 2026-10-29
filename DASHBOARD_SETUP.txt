@@ -1,0 +1,21 @@
+Dashboard patch for Smart Disease Prediction System
+
+Files:
+- app.py: redesigned Streamlit patient portal with sign-in, registration, dashboard,
+  symptom checker, patient-specific prediction history, profile, and sign-out.
+- src/auth.py: SQLite authentication/history helpers using standard-library PBKDF2
+  password hashing (no JWT/passlib dependency required).
+
+Install/launch from the project root:
+  python -m pip install -r requirements.txt
+  python -m streamlit run app.py
+
+Existing users created by the older auth.py implementation may not be able to sign
+in because this patch uses a different password-hash format. Back up data/patients.db
+before replacing files. For a fresh academic demo, rename/delete that database before
+first run if it only contains test accounts.
+
+Security note: This is a local academic prototype, not a production-ready medical
+records system. Do not expose it to the public internet or store real patient data
+without a security review, HTTPS, managed secrets, access controls, and applicable
+privacy compliance.
