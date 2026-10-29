@@ -31,4 +31,3 @@ datasets/data.csv
 
 # Large model checkpoints
 results/checkpoints/
-models/ensemble_model.pkl
